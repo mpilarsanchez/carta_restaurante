@@ -1,0 +1,60 @@
+body{
+  width: 960px;
+  margin: 0 auto;
+}
+header{
+  border-bottom: 1px;
+  width: 100%;
+}
+div{
+
+  overflow: hidden;
+}
+nav{
+  width: 300px;
+  float: left;
+  padding: 15px;
+}
+img{
+  float: right;
+}
+main {
+  width: 610px;
+  float: right;
+  border-left: solid 1px gainsboro;
+
+}
+section{
+  margin-left: 20px;
+}
+a{
+  text-decoration: none;
+   color:black;
+}
+li{
+  line-height: 25px;
+  list-style: none;
+}
+
+li.grises{
+  color: gray;
+}
+footer{
+  overflow: hidden;
+  background-color: gainsboro;
+  padding: 20px;
+  margin-top: 10px;
+
+}
+#logo{
+  width: 200px;
+  float: left;
+}
+
+.links{
+float: right;
+}
+footer a{
+color: white;
+line-height: 25px;
+}

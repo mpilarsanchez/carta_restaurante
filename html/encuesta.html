@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/encuesta.css">
+  <title>Encuesta</title>
+</head>
+<body>
+  <div class="linea">
+  <form action="index.html" method="post">
+    <p>
+      <label for="lugar">¿De donde sos?<label>
+          <br> <select class"" name"lugar" id="lugar">
+            <option value="">Seleccioná una opción</option>
+            <optgroup label="Mendoza">
+              <option value="gc">Godoy Cruz</option>
+              <option value="c">Capital</option>
+              <option value="gu">Guaymallén</option>
+              <option value="m">Maipú</option>
+              <option value="sm">San Martín</option>
+              <option value="lh">Las Heras</option>
+            </optgroup>
+            <optgroup label="San Luis">
+              <option value="me">Merlo</option>
+              <option value="c">Capital</option>
+              <option value="lu">Luján</option>
+            </optgroup>
+          </select>
+        </label>
+    </p>
+    <p>
+      <label for="iluminación">¿Qué te pareció la iluminación del ambiente?</label>
+      <br><input type="radio" name="iluminación" value="ma">Muy arcorde
+      <br><input type="radio" name="iluminación" value="b">Buena, pero podría mejorar
+      <br><input type="radio" name="iluminación" value="m">Mala
+      </label>
+    </p>
+    <br>
+    <p>
+      <label for"plato">¿Qué tipo de plato fue el que más te gustó?</label>
+      <br><input type="checkbox" name="plato" value="e">Entrada
+      <br><input type="checkbox" name="plato" value="ppal">Plato principal
+      <br><input type="checkbox" name="plato" value="p">Postre
+      <br><input type="checkbox" name="plato" value="o">Otro
+      </label>
+    </p>
+    <br>
+    <p>
+      <label for="recomendación">¿Recomendarías el lugar?</label>
+      <br><input type="radio" name="recomendación" value="s">SI
+    <input type="radio" name="recomendación" value="n">NO
+    </p>
+    <br>
+    <p>
+      <label for="com">¿Por qué?</label>
+      <br><textarea id="com" name="com" rows="8" cols="80"></textarea>
+    </p>
+    <p> Dejanos tus datos y nos pondremos en contacto con vos
+      <br>
+      <label for="nombre">Nombre:</label>
+      <input id="nombre" type="text" name="nombre" value="" placeholder="tu nombre" required>
+      <br>
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="email" value="" placeholder="tu email" required>
+    </p>
+    <button id="enviar" type="submit" name="button">Enviar</button>
+    <button id="resetear" type="reset" name="button">Resetear</button>
+  </form>
+</div>
+</body>
+</html>
